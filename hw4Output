@@ -1,0 +1,591 @@
+Raekwon Williams
+
+Status    Name                SSN#          Acct Num   Acct Bal  Account Type  Mat.Date (CD Only)
+Open      Raekwon   Williams  111-11-1111   100001   $  8568.32            CD   5/9/2018
+History:
+Successful Transaction  Transaction: Create Account            Transaction Date: 5/25/2021  Transaction Value: 8568.32  
+
+Open      Todd      Williams  222-22-2222   100002   $  7148.62      Checking   0/0/0
+History:
+Successful Transaction  Transaction: Create Account            Transaction Date: 5/25/2021  Transaction Value: 7148.62  
+
+Open      Stefan    Webster   333-33-3333   100003   $  9521.92       Savings   0/0/0
+History:
+Successful Transaction  Transaction: Create Account            Transaction Date: 5/25/2021  Transaction Value: 9521.92  
+
+Open      Hailey    Nesbitt   444-44-4444   100004   $   572.01            CD   9/5/2019
+History:
+Successful Transaction  Transaction: Create Account            Transaction Date: 5/25/2021  Transaction Value: 572.01   
+
+Open      Patricia  Rose      555-55-5555   100005   $     0.00      Checking   0/0/0
+History:
+Successful Transaction  Transaction: Create Account            Transaction Date: 5/25/2021  Transaction Value: 0.0      
+
+Open      Jhanelle  Watson    666-66-6666   100006   $  9589.32      Checking   0/0/0
+History:
+Successful Transaction  Transaction: Create Account            Transaction Date: 5/25/2021  Transaction Value: 9589.32  
+
+Open      Noname    Jackson   123-45-6789   111111   $ 10000.00       Savings   0/0/0
+History:
+Successful Transaction  Transaction: Create Account            Transaction Date: 5/25/2021  Transaction Value: 10000.0  
+
+Open      Roger     Adams     777-77-7777   100007   $  5421.73            CD   2/28/2019
+History:
+Successful Transaction  Transaction: Create Account            Transaction Date: 5/25/2021  Transaction Value: 5421.73  
+
+Open      Schamar   Henry     888-88-8888   100008   $ 62589.77      Checking   0/0/0
+History:
+Successful Transaction  Transaction: Create Account            Transaction Date: 5/25/2021  Transaction Value: 62589.77 
+
+Open      Nicardia  Reid      999-99-9999   100009   $  2894.09            CD   3/7/2020
+History:
+Successful Transaction  Transaction: Create Account            Transaction Date: 5/25/2021  Transaction Value: 2894.09  
+
+Open      Gabriel   Fogarthy  111-11-2222   100010   $     0.00       Savings   0/0/0
+History:
+Successful Transaction  Transaction: Create Account            Transaction Date: 5/25/2021  Transaction Value: 0.0      
+
+Open      Pseudo    Name      123-12-1234   100011   $ 25000.67       Savings   0/0/0
+History:
+Successful Transaction  Transaction: Create Account            Transaction Date: 5/25/2021  Transaction Value: 25000.67 
+
+Open      Noname    McGee     987-65-4321   222222   $   567.00            CD   2/5/2019
+History:
+Successful Transaction  Transaction: Create Account            Transaction Date: 5/25/2021  Transaction Value: 567.0    
+
+Open      Raekwon   Williams  111-11-1111   100012   $  9987.83      Checking   0/0/0
+History:
+Successful Transaction  Transaction: Create Account            Transaction Date: 5/25/2021  Transaction Value: 9987.83  
+
+
+
+Receipt
+Transaction Type: Close Account
+Account number 100003 has been closed
+
+
+Receipt
+Transaction Type: Close Account
+Account number 100006 has been closed
+
+
+*ERROR*
+Transaction Type: Close Account
+The Account number (1) is not within range
+Try again with a number from 100000-999999
+
+
+*ERROR*
+Transaction Type: Close Account
+Account number (100050) does not exist
+
+
+*ERROR*
+Transaction Type: Close Account
+Account number 100003 is already closed
+
+
+*ERROR*
+Transaction Type: Re-Open Account
+Account number 100005 is already open
+
+
+Receipt
+Transaction Type: Re-Open Account
+Account number 100003 has been re-Opened
+
+
+*ERROR*
+Transaction Type: Re-Open Account
+The Account number (99999) is not within range
+Try again with a number from 100000-999999
+
+
+*ERROR*
+Transaction Type: Re-Open Account
+Account number (100025) does not exist
+
+
+Receipt
+Transaction Type: New Account
+New Account Created
+Account Number: 100050
+Account Holder: Bob Ross
+
+
+Receipt
+Transaction Type: New Account
+New Account Created
+Account Number: 100025
+Account Holder: Steve Rodgers
+
+
+*ERROR*
+Transaction Type: New Account
+The account number (100) is not within range
+Try again with a number from 100000-999999
+
+
+*ERROR*
+Transaction Type: New Account
+an Account with the number 100001 already exists
+
+
+*ERROR*
+Transaction Type: Delete Account
+The Account number (50) is not within range
+Try again with a number from 100000-999999
+
+
+*ERROR*
+Transaction Type: Delete Account
+Account number (100075) does not exist
+
+
+*Error*
+Transaction Type: Delete Account
+Account number: 111111
+The account must have a balance of 0 before being deleted
+
+
+Receipt
+Transaction Type: Withdraw
+Account Number: 111111
+Amount Withdrawn: 10000.0
+Current Balance: 0.0
+
+
+Receipt
+Transaction Type: Delete Account
+Account number 111111 has been deleted
+
+
+Receipt
+Transaction Type: View Balance
+Account Number: 100004
+Current Balance: 572.01
+
+
+*ERROR*
+Transaction Type: View Balance
+The Account number (750) is not within range
+Try again with a number from 100000-999999
+
+
+ERROR
+Transaction Type: View Balance
+Account 100006 is closed
+
+
+*ERROR*
+Transaction Type: View Balance
+Account number (100021) does not exist
+
+
+*ERROR*
+Transaction Type: View Account Info
+Social security number 983-12-5437 does not have an account
+
+
+Receipt
+Transaction Type: View Account Information
+Account SSN: 666-66-6666
+Status    Name                SSN#          Acct Num   Acct Bal  Account Type  Mat.Date (CD Only)
+*ERROR*
+Closed    Account Number: 100006 is closed
+You must open the account to view its content
+
+
+Receipt
+Transaction Type: Close Account
+Account number 100012 has been closed
+
+
+Receipt
+Transaction Type: View Account Information
+Account SSN: 111-11-1111
+Status    Name                SSN#          Acct Num   Acct Bal  Account Type  Mat.Date (CD Only)
+Open      Raekwon   Williams  111-11-1111   100001   $  8568.32            CD   5/9/2018
+
+Status    Name                SSN#          Acct Num   Acct Bal  Account Type  Mat.Date (CD Only)
+*ERROR*
+Closed    Account Number: 100012 is closed
+You must open the account to view its content
+
+
+Receipt
+Transaction Type: View Account Information
+Account SSN: 333-33-3333
+Status    Name                SSN#          Acct Num   Acct Bal  Account Type  Mat.Date (CD Only)
+Open      Stefan    Webster   333-33-3333   100003   $  9521.92       Savings   0/0/0
+
+
+
+*Error
+Transaction Type: Clear Check
+Account Number: 100008
+The check has expired and is now void
+
+
+*Error
+Transaction Type: Clear Check
+Account Number: 100002
+The check has expired and is now void
+
+
+*ERROR*
+Transaction Type: Clear Check
+Account number 100012 is closed
+You Must open the account before making changes to it
+
+
+*ERROR*
+Transaction Type: Clear Check
+The Account number (89) is not within range
+Try again with a number from 100000-999999
+
+
+*ERROR*
+Transaction Type: Clear Check
+Account number (100089) does not exist
+
+
+*Error*
+Transaction Type: Clear Check
+Account number 100001 is not a Checking account
+Only checking accounts can clear checks
+
+
+*Error
+Transaction Type: Clear Check
+Account Number: 100050
+The check has expired and is now void
+
+
+*Error
+Transaction Type: Clear Check
+Account Number: 100002
+The check has expired and is now void
+
+
+Reciept
+Transaction Type: Deposit
+Account number: 100001
+Current Balance: 13068.32
+New maturity date: 5/25/2022
+
+
+Reciept
+Transaction Type: Deposit
+Account number: 100009
+Current Balance: 2999.9
+New maturity date: 11/25/2022
+
+
+*Error*
+Transaction Type: Deposit
+Account number: 100007
+Negative deposit amount (-500.0) was entered
+
+
+*Error*
+Transaction Type: Deposit
+Account number: 100012
+Account number 100012is a closed account
+You must open it before making changes to it
+
+
+*Error*
+Transaction Type: Deposit
+The Account number (158) is not within range
+Try again with a number from 100000-999999
+
+
+*ERROR*
+Transaction Type: Deposit
+Account number (100067) does not exist
+
+
+*Error*
+Transaction Type: Deposit
+Account number: 100010
+Negative deposit amount (-9000.0) was entered
+
+
+Receipt
+Transaction Type: Deposit
+Account number: 100005
+Amount Deposited: 15000.0
+Current Balance: 15000.0
+
+
+*Error
+Transaction Type: Deposit
+Account number: 100025
+CD has not yet matured enough
+
+
+*Error*
+Invalid Command(1) entered.
+
+
+Receipt
+Transaction Type: Deposit
+Account number: 100050
+Amount Deposited: 6500.0
+Current Balance: 7000.0
+
+
+*ERROR*
+Transaction Type: Withdraw
+The Account number (1234567890) is not within range
+Try again with a number from 100000-999999
+
+
+*ERROR*
+Transaction Type: Withdraw
+Account number (100099) does not exist
+
+
+*Error*
+Transaction Type: Withdraw
+Account number: 100006
+Account number 100006is a closed account
+You must open it before making changes to it
+
+
+*Error*
+Transaction Type: Clear Check
+Account Number: 100007
+Insufficient Funds
+
+
+*Error*
+Transaction Type: Withdraw
+Account number: 100001
+Negative withdrawal amount (-5000.0) was entered
+
+
+Receipt
+Transaction Type: Withdraw
+Account Number: 100008
+Amount Withdrawn: 9999.99
+Current Balance: 52589.78
+
+
+Receipt
+Transaction Type: Withdraw
+Account Number: 100050
+Amount Withdrawn: 578.12
+Current Balance: 6421.88
+
+
+*Error*
+Transaction Type: Clear Check
+Account Number: 100025
+Insufficient Funds
+
+
+Receipt
+Transaction Type: Close Account
+Account number 100025 has been closed
+
+
+Receipt
+Transaction Type: Close Account
+Account number 100050 has been closed
+
+
+ERROR
+Transaction Type: View Balance
+Account 100050 is closed
+
+
+ERROR
+Transaction Type: View Balance
+Account 100025 is closed
+
+
+Receipt
+Transaction Type: Re-Open Account
+Account number 100050 has been re-Opened
+
+
+Receipt
+Transaction Type: Re-Open Account
+Account number 100025 has been re-Opened
+
+
+Receipt
+Transaction Type: View Account Information
+Account SSN: 984-23-5429
+Status    Name                SSN#          Acct Num   Acct Bal  Account Type  Mat.Date (CD Only)
+Open      Bob       Ross      984-23-5429   100050   $  6421.88      Checking   0/0/0
+
+
+
+Receipt
+Transaction Type: Account Information and History
+Account SSN: 111-11-1111
+Status    Name                SSN#          Acct Num   Acct Bal  Account Type  Mat.Date (CD Only)
+Open      Raekwon   Williams  111-11-1111   100001   $ 13068.32            CD   5/25/2022
+History:
+Successful Transaction  Transaction: Create Account            Transaction Date: 5/25/2021  Transaction Value: 8568.32  
+Successful Transaction  Transaction: View Account Information  Transaction Date: 5/25/2021  Transaction Value: 0.0      
+Failed Transaction      Transaction: Clear Check               Transaction Date: 5/25/2021  Transaction Value: 0.0       Reason for Failure: Account cannot use checks
+Successful Transaction  Transaction: Deposit                   Transaction Date: 5/25/2021  Transaction Value: 4500.0   
+Failed Transaction      Transaction: Withdraw                  Transaction Date: 5/25/2021  Transaction Value: 0.0       Reason for Failure: Invalid amount entered
+
+
+Status    Name                SSN#          Acct Num   Acct Bal  Account Type  Mat.Date (CD Only)
+*ERROR*
+Closed    Account Number: 100012 is closed
+You must open the account to view its content
+
+
+Receipt
+Transaction Type: Re-Open Account
+Account number 100012 has been re-Opened
+
+
+Receipt
+Transaction Type: Account Information and History
+Account SSN: 111-11-1111
+Status    Name                SSN#          Acct Num   Acct Bal  Account Type  Mat.Date (CD Only)
+Open      Raekwon   Williams  111-11-1111   100001   $ 13068.32            CD   5/25/2022
+History:
+Successful Transaction  Transaction: Create Account            Transaction Date: 5/25/2021  Transaction Value: 8568.32  
+Successful Transaction  Transaction: View Account Information  Transaction Date: 5/25/2021  Transaction Value: 0.0      
+Failed Transaction      Transaction: Clear Check               Transaction Date: 5/25/2021  Transaction Value: 0.0       Reason for Failure: Account cannot use checks
+Successful Transaction  Transaction: Deposit                   Transaction Date: 5/25/2021  Transaction Value: 4500.0   
+Failed Transaction      Transaction: Withdraw                  Transaction Date: 5/25/2021  Transaction Value: 0.0       Reason for Failure: Invalid amount entered
+Successful Transaction  Transaction: Account Info and History  Transaction Date: 5/25/2021  Transaction Value: 0.0      
+
+
+Status    Name                SSN#          Acct Num   Acct Bal  Account Type  Mat.Date (CD Only)
+Open      Raekwon   Williams  111-11-1111   100012   $  9987.83      Checking   0/0/0
+History:
+Successful Transaction  Transaction: Create Account            Transaction Date: 5/25/2021  Transaction Value: 9987.83  
+Successful Transaction  Transaction: Close Account             Transaction Date: 5/25/2021  Transaction Value: 0.0      
+Failed Transaction      Transaction: View Account Information  Transaction Date: 5/25/2021  Transaction Value: 0.0       Reason for Failure: Account was closed
+Failed Transaction      Transaction: Clear Check               Transaction Date: 5/25/2021  Transaction Value: 0.0       Reason for Failure: Account was closed
+Failed Transaction      Transaction: Deposit                   Transaction Date: 5/25/2021  Transaction Value: 0.0       Reason for Failure: Account was closed
+Failed Transaction      Transaction: Account Info and History  Transaction Date: 5/25/2021  Transaction Value: 0.0       Reason for Failure: Account was closed
+Successful Transaction  Transaction: Re-Open Account           Transaction Date: 5/25/2021  Transaction Value: 0.0      
+
+
+
+
+*ERROR*
+Transaction Type: View Account Info and History
+Social security number 873-57-0983 does not have an account
+
+
+All transactions complete.
+
+Status    Name                SSN#          Acct Num   Acct Bal  Account Type  Mat.Date (CD Only)
+Open      Raekwon   Williams  111-11-1111   100001   $ 13068.32            CD   5/25/2022
+History:
+Successful Transaction  Transaction: Create Account            Transaction Date: 5/25/2021  Transaction Value: 8568.32  
+Successful Transaction  Transaction: View Account Information  Transaction Date: 5/25/2021  Transaction Value: 0.0      
+Failed Transaction      Transaction: Clear Check               Transaction Date: 5/25/2021  Transaction Value: 0.0       Reason for Failure: Account cannot use checks
+Successful Transaction  Transaction: Deposit                   Transaction Date: 5/25/2021  Transaction Value: 4500.0   
+Failed Transaction      Transaction: Withdraw                  Transaction Date: 5/25/2021  Transaction Value: 0.0       Reason for Failure: Invalid amount entered
+Successful Transaction  Transaction: Account Info and History  Transaction Date: 5/25/2021  Transaction Value: 0.0      
+Successful Transaction  Transaction: Account Info and History  Transaction Date: 5/25/2021  Transaction Value: 0.0      
+
+Open      Todd      Williams  222-22-2222   100002   $  7148.62      Checking   0/0/0
+History:
+Successful Transaction  Transaction: Create Account            Transaction Date: 5/25/2021  Transaction Value: 7148.62  
+Failed Transaction      Transaction: Clear Check               Transaction Date: 5/25/2021  Transaction Value: 0.0       Reason for Failure: Check has expired
+Failed Transaction      Transaction: Clear Check               Transaction Date: 5/25/2021  Transaction Value: 0.0       Reason for Failure: Check has expired
+
+Open      Stefan    Webster   333-33-3333   100003   $  9521.92       Savings   0/0/0
+History:
+Successful Transaction  Transaction: Create Account            Transaction Date: 5/25/2021  Transaction Value: 9521.92  
+Successful Transaction  Transaction: Close Account             Transaction Date: 5/25/2021  Transaction Value: 0.0      
+Failed Transaction      Transaction: Close Account             Transaction Date: 5/25/2021  Transaction Value: 0.0       Reason for Failure: Account was already closed
+Successful Transaction  Transaction: Re-Open Account           Transaction Date: 5/25/2021  Transaction Value: 0.0      
+Successful Transaction  Transaction: View Account Information  Transaction Date: 5/25/2021  Transaction Value: 0.0      
+
+Open      Hailey    Nesbitt   444-44-4444   100004   $   572.01            CD   9/5/2019
+History:
+Successful Transaction  Transaction: Create Account            Transaction Date: 5/25/2021  Transaction Value: 572.01   
+Successful Transaction  Transaction: View Balance              Transaction Date: 5/25/2021  Transaction Value: 0.0      
+
+Open      Patricia  Rose      555-55-5555   100005   $ 15000.00      Checking   0/0/0
+History:
+Successful Transaction  Transaction: Create Account            Transaction Date: 5/25/2021  Transaction Value: 0.0      
+Failed Transaction      Transaction: Re-Open Account           Transaction Date: 5/25/2021  Transaction Value: 0.0       Reason for Failure: Account was already open
+Successful Transaction  Transaction: Deposit                   Transaction Date: 5/25/2021  Transaction Value: 15000.0  
+
+Closed    Jhanelle  Watson    666-66-6666   100006   $  9589.32      Checking   0/0/0
+History:
+Successful Transaction  Transaction: Create Account            Transaction Date: 5/25/2021  Transaction Value: 9589.32  
+Successful Transaction  Transaction: Close Account             Transaction Date: 5/25/2021  Transaction Value: 0.0      
+Failed Transaction      Transaction: View Balance              Transaction Date: 5/25/2021  Transaction Value: 0.0       Reason for Failure: Account was closed
+Failed Transaction      Transaction: View Account Information  Transaction Date: 5/25/2021  Transaction Value: 0.0       Reason for Failure: Account was closed
+Failed Transaction      Transaction: Withdraw                  Transaction Date: 5/25/2021  Transaction Value: 0.0       Reason for Failure: Account was closed
+
+Open      Roger     Adams     777-77-7777   100007   $  5421.73            CD   2/28/2019
+History:
+Successful Transaction  Transaction: Create Account            Transaction Date: 5/25/2021  Transaction Value: 5421.73  
+Failed Transaction      Transaction: Deposit                   Transaction Date: 5/25/2021  Transaction Value: 0.0       Reason for Failure: Invalid amount entered
+Failed Transaction      Transaction: Withdraw                  Transaction Date: 5/25/2021  Transaction Value: -9999.99  Reason for Failure: Insufficient Funds
+
+Open      Schamar   Henry     888-88-8888   100008   $ 52589.78      Checking   0/0/0
+History:
+Successful Transaction  Transaction: Create Account            Transaction Date: 5/25/2021  Transaction Value: 62589.77 
+Failed Transaction      Transaction: Clear Check               Transaction Date: 5/25/2021  Transaction Value: 0.0       Reason for Failure: Check has expired
+Successful Transaction  Transaction: Withdraw                  Transaction Date: 5/25/2021  Transaction Value: 9999.99  
+
+Open      Nicardia  Reid      999-99-9999   100009   $  2999.90            CD  11/25/2022
+History:
+Successful Transaction  Transaction: Create Account            Transaction Date: 5/25/2021  Transaction Value: 2894.09  
+Successful Transaction  Transaction: Deposit                   Transaction Date: 5/25/2021  Transaction Value: 105.81   
+
+Open      Gabriel   Fogarthy  111-11-2222   100010   $     0.00       Savings   0/0/0
+History:
+Successful Transaction  Transaction: Create Account            Transaction Date: 5/25/2021  Transaction Value: 0.0      
+Failed Transaction      Transaction: Deposit                   Transaction Date: 5/25/2021  Transaction Value: 0.0       Reason for Failure: Invalid amount entered
+
+Open      Pseudo    Name      123-12-1234   100011   $ 25000.67       Savings   0/0/0
+History:
+Successful Transaction  Transaction: Create Account            Transaction Date: 5/25/2021  Transaction Value: 25000.67 
+
+Open      Noname    McGee     987-65-4321   222222   $   567.00            CD   2/5/2019
+History:
+Successful Transaction  Transaction: Create Account            Transaction Date: 5/25/2021  Transaction Value: 567.0    
+
+Open      Raekwon   Williams  111-11-1111   100012   $  9987.83      Checking   0/0/0
+History:
+Successful Transaction  Transaction: Create Account            Transaction Date: 5/25/2021  Transaction Value: 9987.83  
+Successful Transaction  Transaction: Close Account             Transaction Date: 5/25/2021  Transaction Value: 0.0      
+Failed Transaction      Transaction: View Account Information  Transaction Date: 5/25/2021  Transaction Value: 0.0       Reason for Failure: Account was closed
+Failed Transaction      Transaction: Clear Check               Transaction Date: 5/25/2021  Transaction Value: 0.0       Reason for Failure: Account was closed
+Failed Transaction      Transaction: Deposit                   Transaction Date: 5/25/2021  Transaction Value: 0.0       Reason for Failure: Account was closed
+Failed Transaction      Transaction: Account Info and History  Transaction Date: 5/25/2021  Transaction Value: 0.0       Reason for Failure: Account was closed
+Successful Transaction  Transaction: Re-Open Account           Transaction Date: 5/25/2021  Transaction Value: 0.0      
+Successful Transaction  Transaction: Account Info and History  Transaction Date: 5/25/2021  Transaction Value: 0.0      
+
+Open      Bob       Ross      984-23-5429   100050   $  6421.88      Checking   0/0/0
+History:
+Successful Transaction  Transaction: Create Account            Transaction Date: 5/25/2021  Transaction Value: 500.0    
+Failed Transaction      Transaction: Clear Check               Transaction Date: 5/25/2021  Transaction Value: 0.0       Reason for Failure: Check has expired
+Successful Transaction  Transaction: Deposit                   Transaction Date: 5/25/2021  Transaction Value: 6500.0   
+Successful Transaction  Transaction: Withdraw                  Transaction Date: 5/25/2021  Transaction Value: 578.12   
+Successful Transaction  Transaction: Close Account             Transaction Date: 5/25/2021  Transaction Value: 0.0      
+Failed Transaction      Transaction: View Balance              Transaction Date: 5/25/2021  Transaction Value: 0.0       Reason for Failure: Account was closed
+Successful Transaction  Transaction: Re-Open Account           Transaction Date: 5/25/2021  Transaction Value: 0.0      
+Successful Transaction  Transaction: View Account Information  Transaction Date: 5/25/2021  Transaction Value: 0.0      
+
+Open      Steve     Rodgers   932-43-8540   100025   $   672.50            CD   5/25/2022
+History:
+Successful Transaction  Transaction: Create Account            Transaction Date: 5/25/2021  Transaction Value: 672.5    
+Failed Transaction      Transaction: Deposit                   Transaction Date: 5/25/2021  Transaction Value: 0.0       Reason for Failure: CD has not matured yet
+Failed Transaction      Transaction: Withdraw                  Transaction Date: 5/25/2021  Transaction Value: -721.54   Reason for Failure: Insufficient Funds
+Successful Transaction  Transaction: Close Account             Transaction Date: 5/25/2021  Transaction Value: 0.0      
+Failed Transaction      Transaction: View Balance              Transaction Date: 5/25/2021  Transaction Value: 0.0       Reason for Failure: Account was closed
+Successful Transaction  Transaction: Re-Open Account           Transaction Date: 5/25/2021  Transaction Value: 0.0      
+
+
