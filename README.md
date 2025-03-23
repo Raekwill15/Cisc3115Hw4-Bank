@@ -2,7 +2,7 @@
 
 This Homework assignment was to create a mock Banking system using Java.
 
-Using Objects and classes to create a small database of fake bank accounts containing different forms of information.
+Using Objects and classes to create a small database of bank accounts containing different forms of information.
 Provide the basic transactions that you would see at a bank
 
 These transactions were included:
